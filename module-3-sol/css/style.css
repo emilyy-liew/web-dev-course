@@ -1,7 +1,70 @@
 /* Base Styles */
 
+/* header */
+.visible-xs {
+    display: none;
+}
+
+header {
+    background-color: lavenderblush;
+}
+
+.navbar-brand h1 {
+    text-decoration: none;
+    padding-left: 12px;
+}
+
+.nav-item {
+    width: 100%;
+    background-color: palevioletred;
+    border: black solid 1px;
+    clear: right;
+}
+
+.nav-item:hover {
+    background-color: rgb(255, 143, 165);
+}
+/* end header */
+
+.row h2 {
+    margin-top: 15px;
+}
+
+#Chicken, #Beef, #Sushi {
+    padding: 10px;
+}
+
+.info {
+    border: black solid 1px;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#maincontent {
+    padding: 20px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
 /* Desktop Styles (md screens) */
+@media (min-width: 768px) {
+
+}
 
 /* Tablet Styles (sm screens) */
+@media (min-width: 576px) and (max-width: 767px) {
+    
+}
 
 /* Mobile Device Styles (xs screens) */
+@media (max-width: 575px) {
+    .visible-xs {
+        display: block;
+    }
+
+    .navbar-nav {
+    }
+}
