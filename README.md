@@ -22,3 +22,6 @@ In this view, a collapsible menu that will allow you to navigate to subsections 
 
 # Module 4 Assignment:
 The goal of this assignment was to use the Javascript I learned to output "Goodbye [Name]" onto the console if the name began with a "J" or a "j" and "Hello [Name]" in all other cases.
+
+# Module 5 Assignment:
+The goal of this assignment was to add functionality to the Specials Menu Tile on the home page such that it would lead to a random category page based on the categories received from the server through AJAX.
